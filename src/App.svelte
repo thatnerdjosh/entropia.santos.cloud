@@ -15,19 +15,19 @@
 		<option value={planet}>{planet}</option>
 		{/each}
 	</select>
-	<label for=longitude>Latitude:</label>
+	<label for="longitude">Longitude:</label>
 	<input 
 		type="text" 
 		name="longitude"
 		bind:value={x} 
 		on:input="{updateCoords}"/>
-	<label for=longitude>Longitude:</label>
+	<label for="latitude">Latitude:</label>
 	<input 
 		type="text" 
-		name="longitude"
+		name="latitude"
 		bind:value={y} 
 		on:input="{updateCoords}"/>
-	<label for=longitude>Altitude:</label>
+	<label for="altitude">Altitude:</label>
 	<input 
 		type="text" 
 		name="altitude"
